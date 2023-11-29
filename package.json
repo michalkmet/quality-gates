@@ -9,7 +9,8 @@
     "prettier:verify": "prettier --check .",
     "prettier:fix": "prettier --write .",
     "test": "jest",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "commitlint": "commitlint --edit"
   },
   "keywords": [],
   "author": "",
