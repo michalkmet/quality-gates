@@ -4,6 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "eslint:verify": "eslint .",
+    "eslint:fix": "eslint --cache --fix",
+    "prettier:verify": "prettier --check .",
+    "prettier:fix": "prettier --write .",
     "test": "jest",
     "prepare": "husky install"
   },
